@@ -62,3 +62,18 @@ Para garantir um código limpo e de fácil manutenção, o projeto foi dividido 
 1. Clone este repositório:
    ```bash
    git clone [https://github.com/Mankeya/Java-Inventory-CLI.git](https://github.com/Mankeya/Java-Inventory-CLI.git)
+   
+2. Configure o Banco de Dados:
+
+Crie um banco de dados no seu servidor MySQL local.
+
+Certifique-se de configurar as credenciais (usuário e senha) no arquivo Conexao.java.
+
+Dependências:
+
+É necessário adicionar o driver mysql-connector-java ao Classpath do seu projeto para que a conexão com o banco funcione.
+
+
+**Dica rápida:** Para que a seção "Arquitetura do Projeto" faça sentido no seu repositório, lembre-se de criar essas pastinhas (`model`, `dao`, `connection`, `main`) e mover os seus arquivos `.java` para dentro delas. Isso vai deixar o código muito mais profissional!
+
+Gostaria que eu adaptasse esse mesmo estilo para o seu projeto do Sistema Bancário, ou prefere focar em organizar esses arquivos no GitHub primeiro?
